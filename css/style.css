@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-color {
+  background-color: #18191b;
+}
+
+body {
+  background-color: #18191b;
+  text-align: center;
+  color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+}
+
+.acme {
+  font-family: 'Acme', sans-serif;
+}
+
+.headercontainer {
+  height: 10vh;
+}
+
+.contentcontainer {
+  height: 90vh;
+}
+
+.card {
+  background-color: #333333;
+  width: 50vh;
+  margin: 0 10px;
+}
+
+.footercontainer {
+  height: 5vh;
+  font-size: 0.9rem;
+}
+
+.footer-item {
+  background-color: black;
+  line-height: 5vh;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  color: darkblue;
+  margin: auto auto 0 auto;
+}
